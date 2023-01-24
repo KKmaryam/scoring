@@ -1,0 +1,12 @@
+python
+SomePackage
+pandas
+numpy
+plotly
+seaborn
+matplotlib
+scikit-learn
+shap
+strteamlit
+flask
+lightgbm

@@ -59,6 +59,6 @@ def get_score_credit():
 #lancement de l'application
 if __name__ == "__main__":
     app.debug = True
-    app.run()
+    app.run(threaded=True,debug=True, port=8000)
     print("api start ! ")
 

@@ -50,7 +50,7 @@ def get_score_credit():
     # renvoyer la prediction 
     
     dict_final = {
-                  'score' :round(score,2)
+                  'score' :round((score*100),2)
     }             
     
     return jsonify(dict_final)
